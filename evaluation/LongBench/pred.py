@@ -13,7 +13,7 @@ from tqdm import tqdm
 import numpy as np
 import random
 import argparse
-
+import pdb
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -54,7 +54,9 @@ def build_chat(tokenizer, prompt, model_name):
     elif "Qwen" in model_name:
         prompt = [{"role": "user", "content": prompt}]
         prompt = tokenizer.apply_chat_template(prompt, tokenize=False, add_generation_prompt=True)
-    
+    elif "Mistral" in model_name:
+        prompt = [{"role": "user", "content": prompt}]
+        prompt = tokenizer.apply_chat_template(prompt, tokenize=False, add_generation_prompt=True)
     return prompt
 
 def post_process(response, model_name):
@@ -212,11 +214,12 @@ def seed_everything(seed):
     torch.backends.cudnn.deterministic = True
     torch.cuda.manual_seed_all(seed)
 
-def load_model_and_tokenizer(model_name_or_path, device):
+def load_model_and_tokenizer(model_name_or_path, device, config):
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
     model = AutoModelForCausalLM.from_pretrained(
         model_name_or_path,
         device_map=device,
+        config=config,
         # torch_dtype="auto",
         torch_dtype=torch.float16,
     )
@@ -231,8 +234,11 @@ if __name__ == "__main__":
     model2maxlen = json.load(open("./LongBench/config/model2maxlen.json", "r"))
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model_name = args.model_name_or_path.split("/")[-1]
+    config = AutoConfig.from_pretrained(args.model_name_or_path)
+    # config._attn_implementation = "flash_attention_2"
     # define your model
-    model, tokenizer = load_model_and_tokenizer(args.model_name_or_path, device)
+    model, tokenizer = load_model_and_tokenizer(args.model_name_or_path, device, config)
+    # pdb.set_trace()
     max_length = model2maxlen[model_name]
     if args.e:
         datasets = [
@@ -265,12 +271,12 @@ if __name__ == "__main__":
             data = load_dataset("THUDM/LongBench", f"{dataset}_e", split="test")
             if not os.path.exists(f"pred_e/{model_name}"):
                 os.makedirs(f"pred_e/{model_name}")
-            out_path = f"pred_e/{model_name}/{dataset}.jsonl"
+            out_path = f"pred_e/{model_name}/{dataset}-full.jsonl"
         else:
             data = load_dataset("THUDM/LongBench", dataset, split="test")
             if not os.path.exists(f"pred/{model_name}"):
                 os.makedirs(f"pred/{model_name}")
-            out_path = f"pred/{model_name}/{dataset}.jsonl"
+            out_path = f"pred/{model_name}/{dataset}-full.jsonl"
         prompt_format = dataset2prompt[dataset]
         max_gen = dataset2maxlen[dataset]
         preds = get_pred(
