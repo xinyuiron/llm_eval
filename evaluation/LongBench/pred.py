@@ -220,8 +220,8 @@ def load_model_and_tokenizer(model_name_or_path, device, config):
         model_name_or_path,
         device_map=device,
         config=config,
-        # torch_dtype="auto",
-        torch_dtype=torch.float16,
+        torch_dtype="auto",
+        # torch_dtype=torch.float16,
     )
     model = model.eval()
 
@@ -236,6 +236,7 @@ if __name__ == "__main__":
     model_name = args.model_name_or_path.split("/")[-1]
     config = AutoConfig.from_pretrained(args.model_name_or_path)
     # config._attn_implementation = "flash_attention_2"
+    # config._attn_implementation = "eager"
     # define your model
     model, tokenizer = load_model_and_tokenizer(args.model_name_or_path, device, config)
     # pdb.set_trace()
