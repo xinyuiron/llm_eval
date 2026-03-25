@@ -220,8 +220,8 @@ def load_model_and_tokenizer(model_name_or_path, device, config):
         model_name_or_path,
         device_map=device,
         config=config,
-        torch_dtype="auto",
-        # torch_dtype=torch.float16,
+        # torch_dtype="auto",
+        torch_dtype=torch.float16,
     )
     model = model.eval()
 
@@ -235,12 +235,11 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model_name = args.model_name_or_path.split("/")[-1]
     config = AutoConfig.from_pretrained(args.model_name_or_path)
-    # config._attn_implementation = "flash_attention_2"
-    config._attn_implementation = "eager"
+    config._attn_implementation = "flash_attention_2"
+    # config._attn_implementation = "eager"
     # config._attn_implementation = "sdpa"
     # define your model
     model, tokenizer = load_model_and_tokenizer(args.model_name_or_path, device, config)
-    pdb.set_trace()
     max_length = model2maxlen[model_name]
     if args.e:
         datasets = [

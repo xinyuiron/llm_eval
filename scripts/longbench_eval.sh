@@ -3,7 +3,9 @@ MODEL_NAME_OR_PATH=~/models/Qwen2.5-7B-Instruct
 MODEL_NAME="Qwen2.5-7B-Instruct"
 # MODEL_NAME_OR_PATH=~/models/Mistral-7B-Instruct-v0.3
 # MODEL_NAME="Mistral-7B-Instruct-v0.3"
-benchmark_datasets=("multifieldqa_en")
+# benchmark_datasets=("multifieldqa_en")
+benchmark_datasets=("hotpotqa")
+
 for task in "${benchmark_datasets[@]}"
 do
     python -u LongBench/pred.py                     \

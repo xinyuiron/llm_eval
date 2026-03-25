@@ -12,18 +12,18 @@
 {"pred": "Ted Turner", "answers": ["Betty Cohen"], "all_classes": null, "length": 11381}
 {"pred": "Mary Astor", "answers": ["Mary Astor"], "all_classes": null, "length": 11127}
 {"pred": "number five", "answers": ["number five"], "all_classes": null, "length": 6961}
-{"pred": "Sri Lankan sambar deer and fallow deer.", "answers": ["New Zealand, Canada, the United States, the Falkland Islands, and Peru."], "all_classes": null, "length": 11852}
+{"pred": "Sri Lankan sambar deer and white-bellied musk deer share common deer species with the forests of Mara and Mondrem, though they inhabit different", "answers": ["New Zealand, Canada, the United States, the Falkland Islands, and Peru."], "all_classes": null, "length": 11852}
 {"pred": "2000 Summer Olympics", "answers": ["2000 Summer Olympic Games"], "all_classes": null, "length": 8651}
 {"pred": "Claudio López", "answers": ["Claudio Javier López"], "all_classes": null, "length": 4109}
 {"pred": "Ronald Reagan", "answers": ["George H. W. Bush"], "all_classes": null, "length": 12697}
 {"pred": "Rihanna's \"We Found Love\" was featured on her Talk That Talk album and came out ahead of The Wanted's \"Lightning\" on the UK Singles", "answers": ["\"Talk That Talk\""], "all_classes": null, "length": 10290}
 {"pred": "George Harrison", "answers": ["Bob Dylan"], "all_classes": null, "length": 11185}
 {"pred": "Cartoon Cartoons", "answers": ["Cartoon Cartoon Fridays"], "all_classes": null, "length": 8020}
-{"pred": "Sydney, in the state of New South Wales, Australia.", "answers": ["on the Cumberland Plain"], "all_classes": null, "length": 9946}
+{"pred": "New South Wales, Australia", "answers": ["on the Cumberland Plain"], "all_classes": null, "length": 9946}
 {"pred": "Jones Beach Island", "answers": ["Long Island"], "all_classes": null, "length": 3766}
 {"pred": "Trey Parker and Matt Stone", "answers": ["PewDiePie"], "all_classes": null, "length": 8462}
 {"pred": "It's Always Sunny in Philadelphia", "answers": ["It's Always Sunny in Philadelphia"], "all_classes": null, "length": 10483}
-{"pred": "302nd", "answers": ["#364"], "all_classes": null, "length": 6361}
+{"pred": "799", "answers": ["#364"], "all_classes": null, "length": 6361}
 {"pred": "ribosomes", "answers": ["Ribosomes"], "all_classes": null, "length": 11209}
 {"pred": "Dracula", "answers": ["Dracula"], "all_classes": null, "length": 5903}
 {"pred": "Band-e-Amir National Park", "answers": ["Band-e Amir National Park"], "all_classes": null, "length": 2045}
@@ -39,14 +39,14 @@
 {"pred": "Xcel Energy", "answers": ["Xcel Energy Inc."], "all_classes": null, "length": 11865}
 {"pred": "Around the World in 80 Days", "answers": ["Summer Magic"], "all_classes": null, "length": 11344}
 {"pred": "Nobel Prize in Physics", "answers": ["Nobel Prize"], "all_classes": null, "length": 8315}
-{"pred": "for their stop motion animation work.", "answers": ["seasonal television specials, particularly its work in stop motion animation"], "all_classes": null, "length": 11635}
+{"pred": "for their seasonal television specials, usually done in stop motion animation.", "answers": ["seasonal television specials, particularly its work in stop motion animation"], "all_classes": null, "length": 11635}
 {"pred": "Eileen Atkins", "answers": ["Dame Eileen June Atkins"], "all_classes": null, "length": 8515}
 {"pred": "Iran", "answers": ["Iran"], "all_classes": null, "length": 11577}
 {"pred": "Hakim Jamal", "answers": ["Hakim Abdullah Jamal"], "all_classes": null, "length": 12247}
 {"pred": "Keith Morris", "answers": ["Keith Morris"], "all_classes": null, "length": 9574}
 {"pred": "YIVO", "answers": ["YIVO"], "all_classes": null, "length": 6346}
 {"pred": "1813", "answers": ["January 18, 1813"], "all_classes": null, "length": 7662}
-{"pred": "Tongshanjiabu is higher than Himalchuli. Tongshanjiabu is 7,207 metres tall, while Himalchuli", "answers": ["Himalchuli has three main peaks: East (7893 m), West (7540 m) and North (7371 m)"], "all_classes": null, "length": 6717}
+{"pred": "Tongshanjiabu", "answers": ["Himalchuli has three main peaks: East (7893 m), West (7540 m) and North (7371 m)"], "all_classes": null, "length": 6717}
 {"pred": "1867", "answers": ["1763"], "all_classes": null, "length": 11051}
 {"pred": "Pope John X", "answers": ["Pope John X"], "all_classes": null, "length": 3291}
 {"pred": "Manchester United F.C.", "answers": ["Manchester United"], "all_classes": null, "length": 11852}
@@ -61,11 +61,11 @@
 {"pred": "British", "answers": ["English"], "all_classes": null, "length": 12372}
 {"pred": "No", "answers": ["yes"], "all_classes": null, "length": 3708}
 {"pred": "September 14 to November 23, 2002", "answers": ["November"], "all_classes": null, "length": 10261}
-{"pred": "Tainted is not an acting role for any of the American actresses mentioned in the passages. It appears to refer to a wine fault, a legal term, or", "answers": ["Shari Shattuck"], "all_classes": null, "length": 9594}
-{"pred": "British", "answers": ["British"], "all_classes": null, "length": 12150}
+{"pred": "The information provided does not contain any American actress starring in a film or production titled \"Tainted.\" The passage about \"Tainted\" only lists various meanings and", "answers": ["Shari Shattuck"], "all_classes": null, "length": 9594}
+{"pred": "English", "answers": ["British"], "all_classes": null, "length": 12150}
 {"pred": "Vernon L. Smith", "answers": ["Vernon Smith"], "all_classes": null, "length": 10589}
 {"pred": "Deftones", "answers": ["Deftones"], "all_classes": null, "length": 9116}
-{"pred": "9543", "answers": ["810"], "all_classes": null, "length": 8149}
+{"pred": "9,543", "answers": ["810"], "all_classes": null, "length": 8149}
 {"pred": "India", "answers": ["India"], "all_classes": null, "length": 9331}
 {"pred": "Yes.", "answers": ["yes"], "all_classes": null, "length": 11899}
 {"pred": "1706", "answers": ["May 5, 1939"], "all_classes": null, "length": 9716}
@@ -94,7 +94,7 @@
 {"pred": "writer", "answers": ["poet"], "all_classes": null, "length": 11567}
 {"pred": "No", "answers": ["no"], "all_classes": null, "length": 7865}
 {"pred": "2", "answers": ["43,000 marchers"], "all_classes": null, "length": 11812}
-{"pred": "Chicago, Illinois – O'Hare International Airport (ORD)", "answers": ["Indianapolis, Indiana"], "all_classes": null, "length": 12038}
+{"pred": "Chicago, Illinois", "answers": ["Indianapolis, Indiana"], "all_classes": null, "length": 12038}
 {"pred": "1891", "answers": ["1909"], "all_classes": null, "length": 9588}
 {"pred": "Bill McCutcheon", "answers": ["Bill McCutcheon"], "all_classes": null, "length": 6509}
 {"pred": "Field Marshal John Standish Surtees Prendergast Vereker, 6th Viscount Gort", "answers": ["Lord Gort"], "all_classes": null, "length": 12402}
@@ -133,13 +133,13 @@
 {"pred": "French mathematician and physicist", "answers": ["French mathematician and physicist"], "all_classes": null, "length": 8995}
 {"pred": "Elvis' Christmas Album", "answers": ["Elvis' Christmas Album"], "all_classes": null, "length": 6337}
 {"pred": "Operation Iceberg", "answers": ["Operation Iceberg"], "all_classes": null, "length": 11365}
-{"pred": "Logar Province", "answers": ["Puli Alam"], "all_classes": null, "length": 7563}
+{"pred": "Logar", "answers": ["Puli Alam"], "all_classes": null, "length": 7563}
 {"pred": "BBC", "answers": ["BBC Formula One"], "all_classes": null, "length": 4556}
 {"pred": "Plato", "answers": ["Plato"], "all_classes": null, "length": 12021}
 {"pred": "The host of the American skills reality show, The Island, is originally from the United Kingdom.", "answers": ["Northern Ireland"], "all_classes": null, "length": 12338}
 {"pred": "Joe Gooch", "answers": ["Joe Gooch"], "all_classes": null, "length": 11449}
 {"pred": "Both Lavinia Greenlaw and Nâzım Hikmet are poets.", "answers": ["poet and novelist"], "all_classes": null, "length": 7658}
-{"pred": "O", "answers": ["O"], "all_classes": null, "length": 10664}
+{"pred": "Le Rêve was created by the director behind O, a Cirque du Soleil production from 1998 onward.", "answers": ["O"], "all_classes": null, "length": 10664}
 {"pred": "Northwestern State University", "answers": ["West Lafayette, Indiana"], "all_classes": null, "length": 11934}
 {"pred": "John Locke", "answers": ["Father of Liberalism"], "all_classes": null, "length": 11398}
 {"pred": "35 people", "answers": ["35 people"], "all_classes": null, "length": 12544}
@@ -174,7 +174,7 @@
 {"pred": "Michael Tippett", "answers": ["Michael Kemp Tippett"], "all_classes": null, "length": 11419}
 {"pred": "Babylon", "answers": ["Babylon"], "all_classes": null, "length": 10063}
 {"pred": "Ten Walls", "answers": ["Ten Walls"], "all_classes": null, "length": 4660}
-{"pred": "John Paesano did not write any DreamWorks Dragons film; he composed the music for the DreamWorks Dragons television series.", "answers": ["Dragons: Riders of Berk"], "all_classes": null, "length": 11780}
+{"pred": "John Paesano wrote the music for the DreamWorks Dragons television series.", "answers": ["Dragons: Riders of Berk"], "all_classes": null, "length": 11780}
 {"pred": "1978", "answers": ["1978"], "all_classes": null, "length": 10058}
 {"pred": "Jānis Strazdiņš (bass)", "answers": ["Jānis Strazdiņš"], "all_classes": null, "length": 5595}
 {"pred": "writers", "answers": ["writer"], "all_classes": null, "length": 11759}
@@ -186,7 +186,7 @@
 {"pred": "No", "answers": ["no"], "all_classes": null, "length": 11276}
 {"pred": "Brothers Quay", "answers": ["Brothers Quay"], "all_classes": null, "length": 10564}
 {"pred": "72 feet (22 m)", "answers": ["37.5"], "all_classes": null, "length": 5636}
-{"pred": "Bangor Daily News is not specifically talking about Sawin Millett. Sawin Millett is mentioned in a separate passage which discusses his political career in Maine,", "answers": ["Commissioner by the Maine Senate"], "all_classes": null, "length": 6763}
+{"pred": "Bangor Daily News is not specifically talking about Sawin Millett in the given passages. Sawin Millett is mentioned in a separate passage about his political career", "answers": ["Commissioner by the Maine Senate"], "all_classes": null, "length": 6763}
 {"pred": "Vicky", "answers": ["Jodie Prenger"], "all_classes": null, "length": 11053}
 {"pred": "River Thames", "answers": ["Thames"], "all_classes": null, "length": 11460}
 {"pred": "Allure", "answers": ["Allure"], "all_classes": null, "length": 3506}
