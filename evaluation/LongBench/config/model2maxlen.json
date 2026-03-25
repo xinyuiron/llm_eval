@@ -9,5 +9,6 @@
     "vicuna-v1.5-7b-16k": 15500, 
     "Mistral-7B-Instruct-v0.3": 31500, 
     "Meta-Llama-3.1-8B-Instruct": 1047500,
-    "Qwen2.5-7B-Instruct": 131072
+    "Qwen2.5-7B-Instruct": 131072,
+    "Qwen3-4B-Instruct-2507": 262144
 }
